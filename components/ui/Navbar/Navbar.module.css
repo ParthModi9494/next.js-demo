@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+ul.nav_items {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+li.active {
+  font-weight: bold;
+  border-bottom: 2px solid whitesmoke;
+}

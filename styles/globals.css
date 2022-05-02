@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 calc(100vh - 60px);
+}
+
+.navbar {
+  height: 60px;
+  background-color: tomato;
+}
+
+.center {
+  text-align: center;
+}

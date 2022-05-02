@@ -1,0 +1,11 @@
+.title {
+  text-align: center;
+}
+
+.meetup_list {
+  margin: 0 auto;
+  width: 500px;
+}
+.meetup_list ul {
+  list-style: none;
+}
